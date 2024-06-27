@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-
+  <link rel="stylesheet" href="./css/style.css">
   <title>Sujeito Programador - Meu portfolio</title>
 </head>
 <body>
@@ -24,6 +24,9 @@
       </li>
       <li>
         <a href="#projetos">Projetos</a>
+      </li>
+      <li>
+        <a href="#contatos">Contatos</a>
       </li>
     </ul>
   </nav>
@@ -56,26 +59,47 @@
   </section>
   <!-- FIM SOBRE -->
 
+  <!-- <div class="box"></div> -->
+
   <!-- INICIO PROJETOS -->
   <section id="projetos" class="projects">
     <h2>Meus projetos</h2>
     <p>Conheça meus últimos projetos</p>
 
     <div class="project-list">
-      <img src="" alt="Foto do projeto 1">
-      <img src="" alt="Foto do projeto 2">
-      <img src="" alt="Foto do projeto 3">
+      <img src="./images/projeto1.png" alt="Foto do projeto 1">
+      <img src="./images/projeto2.png" alt="Foto do projeto 2">
+      <img src="./images/projeto3.png" alt="Foto do projeto 3">
     </div>
 
-    <div>
-      <img src="" alt="Foto do projeto 2">
-      <img src="" alt="Foto do projeto 1">
-      <img src="" alt="Foto do projeto 3">
+    <div class="project-list">
+      <img src="./images/projeto1.png" alt="Foto do projeto 2">
+      <img src="./images/projeto2.png" alt="Foto do projeto 1">
+      <img src="./images/projeto3.png" alt="Foto do projeto 3">
     </div>
 
-    <button >Faça um orçamento</button>
+    <button class="action">Faça um orçamento</button>
   </section>
   <!-- FIM PROJETOS -->
+<!-- 
+  <div class="box"></div>
+  <div class="box blue"></div>
+  <div class="box red"></div> -->
+
+  <section id="contatos">
+    <form>
+      <h3>Entre em contato</h3>
+      <div class="form-control">
+        <label for="email">E-mail:</label>
+        <input type="email" name="email"/>
+      </div>
+      <div class="form-control">
+        <label for="message">Mensagem:</label>
+        <textarea name="message" id="message"></textarea>
+      </div>
+      <button class="action">Enviar</button>
+    </form>
+  </section>
 
   <!-- INICIO RODAPE -->
   <footer>
